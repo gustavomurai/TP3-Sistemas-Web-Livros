@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f5f8;
+    color: #1f2937;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.topo {
+    background: #ffffff;
+    border: 1px solid #d9dee7;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.topo h1 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+    color: #102a56;
+}
+
+.topo p {
+    margin: 0;
+    color: #5f6b7a;
+    line-height: 1.5;
+}
+
+.barra-acoes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #d9dee7;
+    border-radius: 14px;
+    padding: 22px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th {
+    text-align: left;
+    background: #eef2f8;
+    color: #102a56;
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #d9dee7;
+}
+
+.tabela td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e9f0;
+    vertical-align: middle;
+}
+
+.tabela tr:hover {
+    background: #f8fafc;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primario {
+    background: #1d4ed8;
+    color: #ffffff;
+}
+
+.btn-secundario {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.btn-perigo {
+    background: #dc2626;
+    color: #ffffff;
+}
+
+.btn-pequeno {
+    padding: 7px 10px;
+    font-size: 13px;
+}
+
+.formulario {
+    display: grid;
+    gap: 16px;
+}
+
+.campo {
+    display: grid;
+    gap: 6px;
+}
+
+.campo label {
+    font-weight: bold;
+    color: #102a56;
+}
+
+.campo input {
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.campo input:focus {
+    outline: 3px solid rgba(29, 78, 216, 0.25);
+    border-color: #1d4ed8;
+}
+
+.rodape-formulario {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.erro {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.creditos-lista {
+    line-height: 1.9;
+}
+
+.codigo-erro {
+    background: #111827;
+    color: #e5e7eb;
+    padding: 14px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
